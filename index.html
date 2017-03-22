@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>见缝插针</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<style type="text/css">
+		#button{
+			left: 100px;
+			bottom: 0px;
+			position: fixed;
+		}
+		#button input{
+			font-family: microsoft yahei;
+			width: 100px;
+			height: 31px;
+			cursor: pointer;
+			background-color: #74A8E9;
+			border-radius: 5px;
+		}
+	</style>
+	<script type="text/javascript" src="index.js"></script>
+</head>
+<body>
+	<canvas id="canvas" width="650px" height="650px"></canvas>
+    <div id="info"> </div>
+    <div id="button">
+    	<input type="button" value="运行" onclick="run()" id="run"/>
+    	<input type="button" value="插针" onclick="insert()" id="insert"/>
+    	<input type="button" value="重新开始" onclick="ref()" id="reset"/>
+    </div> 
+</body>
+</html>
